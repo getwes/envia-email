@@ -5,12 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contato</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <form action="https://formsubmit.co/your@email.com" method="POST">
-        <input type="text" name="name" required>
-        <input type="email" name="email" required>
-        <button type="submit">Send</button>
-   </form>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <div class="center">
+                <img src=""></img>
+            </div>
+            <h1>Wesley Freire</h1>
+            <h2>Desenvolvedora de Software</h2>
+        </header>
+
+        <form action="https://formsubmit.co/your@email.com" method="POST">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+    
+            <label for="message">mensagem</label>
+            <input type="text" name="message" id="message" required>
+            <button type="submit">Send</button>
+       </form>
+
+    </div>
+    
 </body>
 </html>
