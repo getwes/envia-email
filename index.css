@@ -63,13 +63,13 @@ nav a:hover {
     color: #5BBE42;
 }
 
-input {
+ .contact-form input {
     width: 100%;
     padding: 8px 0px;
     margin: 8px 0px;
 }
 
-input[type=text] {
+ .contact-form input[type=text] {
     height: 100px;
 }
 
