@@ -63,6 +63,16 @@ nav a:hover {
     color: #5BBE42;
 }
 
+input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+
+input[type=text] {
+    height: 100px;
+}
+
 .contact-form input{
     width: 100%;
     padding: 8px 0;
